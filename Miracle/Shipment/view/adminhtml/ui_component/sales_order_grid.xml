@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <listingToolbar name="listing_top">
+            <massaction name="listing_massaction">
+                <action name="order_shipment">
+                    <argument name="data" xsi:type="array">
+                        <item name="config" xsi:type="array">
+                            <item name="type" xsi:type="string">order_shipment</item>
+                            <item name="label" xsi:type="string" translate="true">Create shipment</item>
+                            <item name="url" xsi:type="url" path="ordershipment/order/massShip"/>
+                            <item name="confirm" xsi:type="array">
+                                <item name="title" xsi:type="string" translate="true">Ship Order(s)</item>
+                                <item name="message" xsi:type="string" translate="true">Are you sure you wan\'t to ship selected items?</item>
+                            </item>
+                        </item>
+                    </argument>
+                </action>
+            </massaction>
+    </listingToolbar>
+</listing>

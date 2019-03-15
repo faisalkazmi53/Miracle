@@ -1,0 +1,22 @@
+{
+    "name": "miracle/module-shipment",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "faisalkazmi53@gmail.com",
+            "name": "Faisal"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Miracle\\Shipment\\": ""
+        }
+    }
+}
